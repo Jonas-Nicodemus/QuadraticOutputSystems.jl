@@ -3,7 +3,7 @@
 [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://Jonas-Nicodemus.github.io/QuadraticOutputSystems.jl/stable/)
 [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://Jonas-Nicodemus.github.io/QuadraticOutputSystems.jl/dev/)
 [![Build Status](https://github.com/Jonas-Nicodemus/QuadraticOutputSystems.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/Jonas-Nicodemus/QuadraticOutputSystems.jl/actions/workflows/CI.yml?query=branch%3Amain)
-[![Coverage](https://codecov.io/gh/Jonas-Nicodemus/QuadraticOutputSystems.jl/graph/badge.svg)](https://codecov.io/gh/Jonas-Nicodemus/QuadraticOutputSystems.jl)
+[![codecov](https://codecov.io/gh/Jonas-Nicodemus/QuadraticOutputSystems.jl/graph/badge.svg?token=qB5KL7XBfY)](https://codecov.io/gh/Jonas-Nicodemus/QuadraticOutputSystems.jl)
 [![Code Style: Blue](https://img.shields.io/badge/code%20style-blue-4495d1.svg)](https://github.com/invenia/BlueStyle)
 
 A package for linear control systems with quadratic output in Julia.
