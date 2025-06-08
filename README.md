@@ -42,7 +42,7 @@ This package is based and inspired by [ControlSystems.jl](https://github.com/Jul
 To install, in the Julia REPL:
 
 ```julia
-using Pkg; Pkg.add(url="https://github.com/Jonas-Nicodemus/QuadraticOutputSystems.jl")
+using Pkg; Pkg.add("QuadraticOutputSystems")
 ```
 ## Documentation
 
