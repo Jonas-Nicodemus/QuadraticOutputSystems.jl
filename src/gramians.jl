@@ -3,14 +3,8 @@ import ControlSystems: grampd, gram
 """
     L = grampd(Σqo::QuadraticOutputStateSpace, opt::Symbol; kwargs...)
 
-Returns a Cholesky factor `L` of the Gramian of system `Σqo`. If `opt` is `:c` 
-it returns the controllability Gramian by calling the 
-`ControlSystems.grampd` from [ControlSystems](https://github.com/JuliaControl/ControlSystems.jl) package.
-If `opt` is `:o` it returns the Cholesky factor of the observability Gramian by solving the Lyapunov equation
-    
-    A'X + XA + MPM = 0,
-
-where `P` is the controllability Gramian of `Σqo`.
+Returns a Cholesky factor `L` of the Gramian of system `Σqo`. 
+If `opt` is `:c`, the controllability Gramian `P=L'*L` is computed. If `opt` is `:o` the observability Gramian `Q=L*L'` is computed.
 """
 function grampd(Σqo::QuadraticOutputStateSpace, opt::Symbol; kwargs...)
     Σ = ss(Σqo)
@@ -29,14 +23,8 @@ end
 """
     X = gram(Σqo::QuadraticOutputStateSpace, opt::Symbol; kwargs...)
 
-Returns the Gramian of system `Σqo`. If `opt` is `:c` 
-it returns the controllability Gramian by calling the 
-`ControlSystems.gram` from [ControlSystems](https://github.com/JuliaControl/ControlSystems.jl) package.
-If `opt` is `:o` it returns the observability Gramian by solving the Lyapunov equation
-    
-    A'X + XA + MPM = 0,
-
-where `P` is the controllability Gramian of `Σqo`.
+Returns the Gramian of system `Σqo`. 
+If `opt` is `:c` the controllability Gramian is computed. If `opt` is `:o` the observability Gramian is computed.
 """
 function gram(Σqo::QuadraticOutputStateSpace, opt::Symbol; kwargs...)
     U = grampd(Σqo, opt; kwargs...)

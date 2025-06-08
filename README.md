@@ -39,10 +39,13 @@ This package is based and inspired by [ControlSystems.jl](https://github.com/Jul
 
 ## Installation
 
-To install, in the Julia REPL:
-
+Install with the Julia package manger [Pkg](https://pkgdocs.julialang.org/):
 ```julia
-using Pkg; Pkg.add("QuadraticOutputSystems")
+pkg> add QuadraticOutputSystems # Press ']' to enter the Pkg REPL mode.
+```
+or
+```julia
+julia> using Pkg; Pkg.add("QuadraticOutputSystems")
 ```
 ## Documentation
 

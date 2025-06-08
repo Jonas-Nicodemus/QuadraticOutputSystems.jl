@@ -6,7 +6,7 @@ CurrentModule = QuadraticOutputSystems
 
 Documentation for [QuadraticOutputSystems](https://github.com/Jonas-Nicodemus/QuadraticOutputSystems.jl).
 
-A toolbox for control systems with quadratic output in Julia.
+A package for linear control systems with quadratic output in Julia.
 
 The considered systems are of the form
 
@@ -21,9 +21,9 @@ The considered systems are of the form
             x(t)^\top M_p x(t)
         \end{array}
         \right]
-	\end{aligned}\right.
+	\end{aligned}\right..
 ```
-where the output can be written as
+The output can be written as
 ```math
     y(t) = Cx(t) + M(x(t)\otimes x(t)), \quad \text{with} \quad
     M:= 
@@ -35,15 +35,7 @@ where the output can be written as
     \in \mathbb{R}^{p \times n^2}.
 ```
 
-This toolbox is based and inspired by [ControlSystems.jl](https://github.com/JuliaControl/ControlSystems.jl) and implements the results from [BGD22](@cite).
-
-## Installation
-
-To install, in the Julia REPL:
-
-```julia
-using Pkg; Pkg.add(url="https://github.com/Jonas-Nicodemus/QuadraticOutputSystems.jl")
-```
+This package is based and inspired by [ControlSystems.jl](https://github.com/JuliaControl/ControlSystems.jl) and implements some of the results from [BGD22](@cite).
 
 ### Example
 

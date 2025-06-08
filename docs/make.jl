@@ -8,7 +8,6 @@ bib = CitationBibliography(joinpath(@__DIR__, "..", "CITATION.bib"))
 makedocs(;
     modules=[QuadraticOutputSystems],
     authors="Jonas Nicodemus <jonas.nicodemus@icloud.com> and contributors",
-    repo="https://github.com/Jonas-Nicodemus/QuadraticOutputSystems.jl/blob/{commit}{path}#{line}",
     sitename="QuadraticOutputSystems.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
