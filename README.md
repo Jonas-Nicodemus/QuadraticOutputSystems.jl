@@ -5,6 +5,7 @@
 [![Build Status](https://github.com/Jonas-Nicodemus/QuadraticOutputSystems.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/Jonas-Nicodemus/QuadraticOutputSystems.jl/actions/workflows/CI.yml?query=branch%3Amain)
 [![codecov](https://codecov.io/gh/Jonas-Nicodemus/QuadraticOutputSystems.jl/graph/badge.svg?token=qB5KL7XBfY)](https://codecov.io/gh/Jonas-Nicodemus/QuadraticOutputSystems.jl)
 [![Code Style: Blue](https://img.shields.io/badge/code%20style-blue-4495d1.svg)](https://github.com/invenia/BlueStyle)
+[![Aqua QA](https://raw.githubusercontent.com/JuliaTesting/Aqua.jl/master/badge.svg)](https://github.com/JuliaTesting/Aqua.jl)
 
 A package for linear control systems with quadratic output in Julia.
 
