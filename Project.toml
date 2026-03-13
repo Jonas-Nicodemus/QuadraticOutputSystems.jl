@@ -1,6 +1,6 @@
 name = "QuadraticOutputSystems"
 uuid = "7e166fd4-1274-4fbf-8c8d-3f6046b124b3"
-version = "1.0.2"
+version = "1.1.0"
 authors = ["Jonas Nicodemus <jonas.nicodemus@icloud.com> and contributors"]
 
 [deps]
