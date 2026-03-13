@@ -1,10 +1,9 @@
 name = "QuadraticOutputSystems"
 uuid = "7e166fd4-1274-4fbf-8c8d-3f6046b124b3"
-authors = ["Jonas Nicodemus <jonas.nicodemus@icloud.com> and contributors"]
 version = "1.0.1"
+authors = ["Jonas Nicodemus <jonas.nicodemus@icloud.com> and contributors"]
 
 [deps]
-ControlSystems = "a6e380b2-a6ca-5380-bf3e-84a91bcd477e"
 ControlSystemsBase = "aaaaaaaa-a6ca-5380-bf3e-84a91bcd477e"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MatrixEquations = "99c1a7ee-ab34-5fd5-8076-27c950a045f4"
@@ -13,14 +12,15 @@ MatrixEquations = "99c1a7ee-ab34-5fd5-8076-27c950a045f4"
 Aqua = "0.8"
 ControlSystems = "1"
 ControlSystemsBase = "1"
+LinearAlgebra = "^1.6"
 MatrixEquations = "2"
 Test = "1"
 julia = "^1.6"
-LinearAlgebra = "^1.6"
 
 [extras]
 Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
+ControlSystems = "a6e380b2-a6ca-5380-bf3e-84a91bcd477e"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [targets]
-test = ["Aqua", "Test"]
+test = ["Aqua", "ControlSystems", "Test"]

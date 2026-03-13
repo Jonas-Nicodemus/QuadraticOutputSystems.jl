@@ -1,4 +1,4 @@
-import ControlSystems: grampd, gram 
+import ControlSystemsBase: grampd, gram 
 
 """
     L = grampd(Σqo::QuadraticOutputStateSpace, opt::Symbol; kwargs...)

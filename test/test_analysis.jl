@@ -1,7 +1,7 @@
 module Test_analysis
 
 using QuadraticOutputSystems
-using ControlSystems
+using ControlSystemsBase
 using Test
 
 @testset "test_analysis.jl" begin

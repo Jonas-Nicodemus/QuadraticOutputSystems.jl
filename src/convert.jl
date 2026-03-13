@@ -1,4 +1,4 @@
-import ControlSystems: ss
+import ControlSystemsBase: ss
 
 function ss(Σqo::QuadraticOutputStateSpace)
     return ss(Σqo.A, Σqo.B, Σqo.C, 0) 

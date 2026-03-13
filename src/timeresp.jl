@@ -1,4 +1,4 @@
-import ControlSystems: lsim, SimResult
+import ControlSystemsBase: lsim, SimResult
 
 """
     result = lsim(Σqo, u, t; kwargs...)

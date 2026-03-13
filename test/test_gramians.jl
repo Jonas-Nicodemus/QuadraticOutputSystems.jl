@@ -1,7 +1,7 @@
 module Test_gramians
 
 using QuadraticOutputSystems
-using ControlSystems
+using ControlSystemsBase
 using Test
 
 @testset "test_gramians.jl" begin

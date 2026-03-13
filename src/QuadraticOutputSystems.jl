@@ -1,6 +1,6 @@
 module QuadraticOutputSystems
 
-using LinearAlgebra, ControlSystems, MatrixEquations
+using LinearAlgebra, ControlSystemsBase, MatrixEquations
 
 export QuadraticOutputStateSpace, qoss
 export h2norm, h2inner
